@@ -246,8 +246,9 @@ function reverseString(/* str */) {
  *   87354 => 45378
  *   34143 => 34143
  */
-function reverseInteger(/* num */) {
-  throw new Error('Not implemented');
+function reverseInteger(num) {
+  const arr = `${num}`.split('').reverse().join('');
+  return +arr;
 }
 
 
